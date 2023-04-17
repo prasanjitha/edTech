@@ -9,11 +9,11 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import CustomColors from '../config/CustomColors';
 
 
-function IconTextField(props) {
+function IconTextField({ right, width = '100%', borderRadius = 20.0, placeholder = 'Password', iconName = 'eye' }) {
     return (
-        <View style={styles.container}>
-            <TextInput style={styles.input} placeholder='Password' />
-            <MaterialCommunityIcons size={20} color={CustomColors.grey} style={styles.icon} name='eye' />
+        <View style={[styles.container, { right: right }]}>
+            <TextInput style={[styles.input, { borderRadius: borderRadius, width: width }]} placeholder={placeholder} />
+            <MaterialCommunityIcons size={20} color={CustomColors.grey} style={styles.icon} name={iconName} />
         </View>
     );
 }
@@ -30,10 +30,8 @@ const styles = StyleSheet.create({
     },
     input: {
         paddingLeft: 20.0,
-        borderRadius: 20.0,
         borderWidth: 1.0,
         borderColor: CustomColors.grey,
-        width: '100%',
         height: 45.0,
     },
 });

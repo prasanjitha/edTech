@@ -9,12 +9,14 @@ import { NavigationContainer } from '@react-navigation/native';
 import AuthNavigation from './src/navigations/AuthNavigation';
 import MainTabNavigator from './src/navigations/MainTabNavigator';
 import WdNavigationTheme from './src/navigations/WdNavigationTheme';
+import SearchScreen from './src/screens/SearchScreen';
+import CourseDetails from './src/screens/CourseDetails';
 
 export default function App() {
   return (
 
     <NavigationContainer theme={WdNavigationTheme}>
-      <MainTabNavigator />
+      <CourseDetails />
     </NavigationContainer>
 
   );
