@@ -16,6 +16,7 @@ function BackButton(props) {
 }
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
         alignSelf: 'flex-start',
     }
 });
