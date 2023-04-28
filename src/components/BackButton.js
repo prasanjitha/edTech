@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignSelf: 'flex-start',
+        color: 'white'
     }
 });
 
