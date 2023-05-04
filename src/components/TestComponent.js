@@ -3,7 +3,8 @@ import { View } from 'react-native';
 
 function TestComponent(props) {
     return (
-        <View></View>
+        <View>
+            <Button title="Click"></Button></View>
     );
 }
 
