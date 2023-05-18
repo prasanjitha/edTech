@@ -19,7 +19,7 @@ function CourseDetails(props) {
 
                 <View style={styles.appContainer}>
                     <BackButton />
-                    <Text style={styles.appTitle}>HTML</Text>
+                    <Text style={styles.appTitle}>Html</Text>
                     <View />
                 </View>
                 <Image style={styles.image} source={require('../images/course_details_img.png')} />
