@@ -4,7 +4,7 @@ import { View } from 'react-native';
 function TestComponent(props) {
     return (
         <View>
-            <Button title="CLick me again"></Button></View>
+            <Button title="Click"></Button></View>
     );
 }
 
