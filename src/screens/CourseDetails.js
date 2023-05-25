@@ -32,7 +32,7 @@ function CourseDetails(props) {
                 <Text style={styles.time}>1h 30 min</Text>
                 <View style={styles.addToCartBtn}>
                     <MainButton
-                        btnText='Add to cart'
+                        btnText='Add to cart item'
                     />
                 </View>
             </ScrollView>
