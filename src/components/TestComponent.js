@@ -5,6 +5,7 @@ function TestComponent(props) {
     return (
         <View>
             <Button title="Button click"></Button>
+            <Button title="Button click"></Button>
         </View>
     );
 }
